@@ -1,0 +1,133 @@
+header {
+    background: #FEFAE0;
+    height: 400px;
+    left: 0px;
+    top: 0px;
+}
+.content-header{
+    width: 940px;
+    margin: 0 auto;
+}
+.short-about{
+    float: right;
+    margin-top: 55px;
+}
+
+.short-about h2 {
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    
+}
+.short-about h1 {
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+.short-about li h3 {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.short-about li h3 i{
+    padding-right: 10px;
+}
+
+.profile-img{
+    position:absolute;
+    margin-top: 55px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%
+}
+main {
+    background: #DDA15E;
+	
+}
+main .work-experience {
+    width: 940px;
+	margin: 0 auto;
+    padding: 20px;
+    
+}
+
+main .work-experience h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+main .work-experience h2 i{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+main .work-experience .job {
+    padding-top: 15px;
+}
+
+main .work-experience .job h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+
+}
+
+main .work-experience .job h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+    padding-bottom: 10px;
+
+}
+
+main .work-experience .job i{
+    padding-right: 12px;
+    color: white;
+    
+}
+
+main .work-experience .job p{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 3px dotted #283618;
+}
+footer {
+    background: #BC6C25;
+}
+
+footer .social-media{
+        width: 940px;
+        margin: 0 auto;
+        text-align: center;
+}
+
+footer .social-media ul li {
+    display: inline;
+    margin: 0 3px;
+}
+
+footer .social-media i{ 
+    padding: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+footer .social-media a:hover i{ 
+    padding: 10px;
+    font-size: 20px;
+    color: #283618;
+
+}
+
+footer .social-media p {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
