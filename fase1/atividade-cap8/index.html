@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveller - Cadastro de Ponto Turistico</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- INICIO TOPO -->
+    <header class="header">
+        <h1 class="header-title">Traveller</h1>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#" target="_blank">Home</a></li>
+                    <li><a href="#" target="_blank">Destinos</a></li>
+                    <li><a href="#" target="_blank">Ajuda</a></li>
+                    <li><a href="#" target="_blank">Contato</a></li>
+                </ul>
+            </nav>
+    </header>    
+    <!-- Fim TOPO -->
+    <!-- Inicio Hero -->
+    <section class="call2action">
+        <h2 class="call2action-title">Visitou um ponto turistico novo?!</h2>
+        <p class="call2action-text">Cadastre aqui!</p>
+        <div class="line"></div>
+
+    </section>
+
+    <!-- Fim Hero -->
+    <section>
+        <img src="" alt="">
+    </section>
+    <!-- Inicio Form -->
+    <form action="#" method="get" class="form">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p class="section-p">
+                <label for="name" >Seu nome:
+                    <input type="text" name="user_name" id="name" placeholder="Fulano Beltrano" required class="input-form">
+                </label>
+                <label for="email">Seu e-mail:
+                    <input type="email" name="user_email" id="email" placeholder="teste@teste.com" class="input-form-email">
+                </label>
+                
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Informações do ponto Turistico</legend>
+            <p class="section-p">
+                <label for="tuor_name"> Nome do ponto Turistico:
+                    <input type="text" name="tuor_name" id="tuor_name" class="input-form" required >
+                </label>
+            </p>
+            <p class="section-p">
+                <label for="tuor_address"> Localização:
+                    <input type="text" name="tuor_address" id="tuor_address" class="input-form" required>
+                </label>
+            </p>
+            <p class="section-p">
+                <label for="tuor_city"> Cidade:
+                    <input type="text" name="tuor_city" id="tuor_city" class="input-form">
+                </label>
+                <label for="tuor_country"> Pais:
+                    <input type="text" name="tuor_country" id="tuor_country" class="input-form">
+                </label>
+            </p>
+            <p class="section-p">
+                <label for="ticket">Local é pago?
+                    <input type="radio" name="ticket" id="ticket_yes" value="Sim">
+                    <label for="ticket_yes">Sim</label>
+                    <input type="radio" name="ticket" id="ticket_no" value="Não">
+                    <label for="ticket_no">Não</label>
+                </label>
+            </p>
+            <p class="section-p">
+            <label for="value">Se sim, Qual o valor?
+                <input type="number" name="value" id="value" class="input-form">
+            </label>
+            </p>
+            <p class="section-p">
+                <label for="describe">Deixe uma descrição sobre o Local<br>
+                    <textarea name="describe" id="describe" cols="30" rows="10" class="input-form-text"></textarea>
+                </label>
+             </p>
+            <p class="section-p">
+                <label for="upload">Adicione Fotos!
+                    <input type="file" name="upload" id="upload">
+                </label>
+            </p>
+            <p class="section-p">
+                <input type="submit" value="Enviar" class="botao-enviar">
+            </p>
+        </fieldset>
+    </form>
+    <!-- Fim Form -->
+
+</body>
+</html>
